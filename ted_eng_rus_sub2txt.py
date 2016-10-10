@@ -56,7 +56,7 @@ def extract_paras(paras_soup):
                 last_time = time
             elif check(".?!;", text):
                 try:
-                    p[last_time] = p[last_time] + text
+                    p[last_time] = p[last_time] + ' %s'%text
                     last_time = time
                 except KeyError:
                     pass
