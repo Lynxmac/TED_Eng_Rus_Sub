@@ -1,7 +1,7 @@
 # TED_Eng_Rus_sub2txt
 
 > With this script , you can generate an Eng_Rus bilingual TED speach sub.
-> Fault tolerance rate is less than 5%
+> Fault tolerance rate is less than 5%,I guess
 
 ### Usage:
 
