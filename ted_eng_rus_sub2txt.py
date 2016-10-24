@@ -139,7 +139,7 @@ def merge_rus_eng(en_final,ru_final):
 
 
 def generatefile(merge,url):
-    filename = url.replace("http://www.ted.com/talks/",'')
+    filename = url.split("www.ted.com/talks/")[1]
     with open("%s.txt"%filename,"wb") as f:
         for text in merge:
             f.write("\n\n\n")
